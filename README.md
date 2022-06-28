@@ -15,7 +15,7 @@ Uso de java faker para el body de las peticiones
 Configurables en el archivo config.properties
 # Patrones de Diseño
 - Builder Pattern
-- Factory | Object Mother Pattern
+- Factory | Object Mother Pattern <br>
 Usados para la generacion de datos usando java faker y modelar el cuerpo de las peticiones como clases
 
 ```
