@@ -2,9 +2,9 @@
 Proyecto Maven creado con RestAssured, Hamcrest, TestNG, Log4j, JavaFaker, Allure para automatizar lo siguente en el servicio de https://reqres.in/
 1. Obtener un usuario específico
 2. Obtener todos los usuarios
-3. Verificar el order de los usuarios por id
+3. Verificar el orden de los usuarios por id
 4. Registrar un usuario correctamente
-5. Registrar un usuario con informacion nula
+5. Registrar un usuario con información nula
 6. Actualizar un usuario usando PATCH y PUT
 7. Borrar un usuario
 # Estructura del proyecto
