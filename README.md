@@ -7,7 +7,28 @@ Proyecto Maven creado con RestAssured, Hamcrest, TestNG, Log4j, JavaFaker, Allur
 5. Registrar un usuario con informacion nula
 6. Actualizar un usuario usando PATCH y PUT
 7. Borrar un usuario
-
+# Estructura del proyecto
+### Paquete utils
+- Clase PropertiesFile contiene método para leer archivos properties
+### Paquete tests
+- Clase BaseTest para inicializar las especificaciones default para cada test
+- Clase ReqResTests contiene todo los tests para ejecutar
+### Paquete model
+- Clase CreateUserRequest contiene el modelo del body
+- Clase CreateUserResponse contiene el modelo de la respuesta
+- Clase UpdateUserRequest contiene el modelo del body
+- Clase UpdateUserResponse contiene el modelo del respuesta
+### Paquete listeners
+- Clase TestNGListeners contiene los listeners
+### Paquete data.factory
+- Clase CreateUserDataFactory generación de datos a partir JavaFaker y el builder
+- Clase UpdateUserDataFactory generación de datos a partir JavaFaker y el builder
+### Paquete builder
+- Clase CreateUserRequestBuilder contiene el builder para la clase CreateUserRequest
+- Clase UpdateUserRequestBuilder contiene el builder para la clase UpdateUserRequest
+### Paquete resources
+- Archivo config.properties contiene las configuraciones necesarias
+- Archivo log4j2.properties contiene la estructura del log
 # Generación de datos
 ## Java Faker
 Uso de java faker para el body de las peticiones
