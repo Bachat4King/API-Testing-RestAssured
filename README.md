@@ -13,6 +13,11 @@ Proyecto Maven creado con RestAssured, Hamcrest, TestNG, Log4j, JavaFaker, Allur
 Uso de java faker para el body de las peticiones
 ## Datos estáticos
 Configurables en el archivo config.properties
+# Patrones de Diseño
+- Builder Pattern
+- Factory | Object Mother Pattern
+Usados para la generacion de datos usando java faker y modelar el cuerpo de las peticiones como clases
+
 ```
 DEFAULT_EMAIL=DEFAULT_EMAIL
 DEFAULT_JOB=DEFAULT_JOB
