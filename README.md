@@ -33,4 +33,4 @@ Despues de haber ejecutado los tests, correr en la consola el siguiente comando
 allure serve allure-results
 ```
 # Listener de TestNG
-listener de TestNG para ocupar log4j
+listener de TestNG para ocupar log4j los cuales se guardaran en logs/automation.log
